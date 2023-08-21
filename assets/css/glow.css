@@ -135,6 +135,7 @@ section.contact{
 }
 
 .policy-container{
+    border-radius: 8px;
     -webkit-box-shadow: 0px 0px 20px 5px rgba(219,215,219,1);
     -moz-box-shadow: 0px 0px 20px 5px rgba(219,215,219,1);
     box-shadow: 0px 0px 20px 5px rgba(219,215,219,1);
@@ -213,4 +214,29 @@ span.orange-text{
 .meet-btn{
     color: red;
     background-color: #00bc8d;
+}
+
+section.footer{
+    object-fit: fill;
+    background-image: linear-gradient(to right top, #02001f, #05062e, #010d3e, #000f4d, #00105d, #00105e, #000f5f, #000f60, #000e53, #000d46, #030839, #05022c);
+}
+
+.address-img{
+   opacity: 0.45;
+}
+
+.address-heading{
+    color: #ffffff;
+    font-size: var(--header-4);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.address-desc{
+    color: #ead8ff;
+    font-size: var(--text-medium);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
